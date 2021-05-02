@@ -1,0 +1,33 @@
+canvas {
+    background-image: url('images/background.jpg');
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-family: 'Zen Dots', cursive;
+    font-size: 3rem;
+    color: rgb(168, 168, 5);
+    text-align: center;
+    text-decoration:underline;
+        width: 300px;
+        height: 120px;
+        background: rgb(230, 243, 47);
+        transition: width 2s, height 2s, transform 2s;
+}
+h1{
+    font-family: 'New Tegomin', serif;
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(4, 94, 12);
+}
+button:hover{
+    width: 200px;
+}
+
+h1:hover {
+    width: 400px;
+    height: 300px;
+    transform: rotate(360deg);
+  }
